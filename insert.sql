@@ -23,10 +23,7 @@ REGION_CLIMATEZONE
 
 INSERT INTO Region_Climatezone (Region_ID, Climatezone) VALUES
 (1, 'BWh (Warm desert climate)'),
-(2, 'BSh (Warm semi-arid climate)'),
-(3, 'Aw (Tropical savanna climate)'),
-(4, 'Am (Monsoon climate)'),
-(5, 'Af (Equatorial climate)');
+(2, 'BWh (Warm desert climate)');
 
 /*
 ======

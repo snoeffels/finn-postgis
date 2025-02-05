@@ -69,3 +69,49 @@ INSERT INTO Region_Climatezone (Region_ID, Climatezone) VALUES
 (11, 'Am (Monsoon climate)'),
 (12, 'Aw (Tropical savanna climate)'),
 (12, 'Am (Monsoon climate)');
+
+INSERT INTO farm (farm_id, name, region_id, size_hectares) VALUES
+  (1, 'Maroua Agro', 3, 200.5),
+  (2, 'Ngaoundéré Plantation', 5, 320.0),
+  (3, 'Garoua Farming', 4, 150.3),
+  (4, 'Bertoua Agro', 6, 280.7),
+  (5, 'Ebolowa Plantations', 7, 310.2),
+  (6, 'Bafoussam Fields', 8, 140.8),
+  (7, 'Bamenda Agro', 9, 260.4),
+  (8, 'Douala Farms', 10, 400.0),
+  (9, 'Yaoundé Green', 11, 180.5),
+  (10, 'Kribi Agro', 12, 220.0);
+
+INSERT INTO crops (crop_id, name) VALUES
+  (1, 'Mais'),
+  (2, 'Reis'),
+  (3, 'Cannabis'),
+  (4, 'Erdnüsse'),
+  (5, 'Kaffee'),
+  (6, 'Kakao'),
+  (7, 'Maniok'),
+  (8, 'Bananen'),
+  (9, 'Palmöl'),
+  (10, 'Sojabohnen');
+
+INSERT INTO farm_crops (farm_id, crop_id, area_hectares, production_tons) VALUES
+  (1, 1, 80.0, 400.0),
+  (1, 2, 70.0, 300.0),
+  (1, 4, 60.0, 250.0),
+  (1, 5, 50.0, 200.0),
+  (1, 7, 40.0, 180.0),
+  (2, 2, 100.0, 500.0),
+  (2, 3, 90.0, 400.0),
+  (2, 6, 70.0, 350.0),
+  (2, 8, 60.0, 300.0),
+  (2, 9, 50.0, 250.0),
+  (3, 3, 200.0, 900.0),
+  (4, 6, 150.0, 700.0),
+  (5, 5, 130.0, 500.0),
+  (5, 7, 110.0, 550.0),
+  (6, 8, 90.0, 450.0),
+  (6, 9, 70.0, 300.0),
+  (7, 7, 140.0, 600.0),
+  (8, 9, 200.0, 1000.0),
+  (9, 10, 180.0, 800.0),
+  (10, 8, 160.0, 750.0);

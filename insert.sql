@@ -116,7 +116,6 @@ INSERT INTO Crops (Name) VALUES
   ('Sojabohnen');
 
 INSERT INTO Farm_Crops (Farm_ID, Crop_Name, Area, Amount) VALUES
- 
   (1, 'Mais', 80.0, 400.0),
   (1, 'Reis', 70.0, 300.0),
   (1, 'Erdnüsse', 60.0, 250.0),
